@@ -38,6 +38,8 @@ gem "bootsnap", require: false
 gem 'sidekiq'
 gem 'sidekiq-cron'
 gem 'net-http'
+gem 'bcrypt'
+gem 'jwt'
 
 group :development, :test do
   gem "rspec-rails", "~> 4.0"
