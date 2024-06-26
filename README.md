@@ -10,6 +10,6 @@ bundle exec sidekiq
 
 Based on [this tutorial](https://www.digitalocean.com/community/tutorials/build-a-restful-json-api-with-rails-5-part-one#project-setup)
 
-Additional features (Not in tutorial):
-Help board - /help
+Additional features (Not in tutorial):<br>
+Help board - /help<br>
 Deadline system - /notify
