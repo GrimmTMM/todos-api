@@ -7,4 +7,4 @@ Based on [this tutorial](https://www.digitalocean.com/community/tutorials/build-
 
 Additional features (Not in tutorial):<br>
 Help board - /help<br>
-Deadline system - /notify<br>
+Deadline system - /notify
