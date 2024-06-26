@@ -2,6 +2,9 @@ class ApplicationController < ActionController::API
     include Response
     include ExceptionHandler
 
+    before_action :authorize_request
+    attr_reader :current_user
+    
     def help
         help_object = {
             "message": "Help",
@@ -28,4 +31,10 @@ class ApplicationController < ActionController::API
 
         json_response(help_object)
     end
+
+    private
+
+  def authorize_request
+    @current_user = (AuthorizeApiRequest.new(request.headers).call)[:user]
+  end
 end
