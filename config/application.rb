@@ -44,6 +44,6 @@ module TodosApi
     # Change accordingly
     config.time_zone = "Kuala Lumpur"
 
-    config.active_job.queue_adapter = :sidekiq
+    config.active_job.queue_adapter = :async
   end
 end
