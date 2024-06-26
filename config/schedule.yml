@@ -1,4 +1,0 @@
-check_deadlines_job:
-  cron: "* * * * *"  # every minute
-  class: "CheckDeadlinesJob"
-  queue: default
